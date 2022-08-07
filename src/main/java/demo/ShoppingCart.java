@@ -10,4 +10,8 @@ public class ShoppingCart {
         //Sanitize the Data
         System.out.println("Checking out (method from shopping cart)");
     }
+
+    public int quantity(){
+        return 2;
+    }
 }

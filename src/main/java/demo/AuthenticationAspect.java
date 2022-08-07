@@ -8,13 +8,11 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class AuthenticationAspect {
-
     @Pointcut("within(demo..*)")
     public void authenticatingPointCut(){
 
     }
-
-    @Pointcut("within(demo.ShoppingCart.*)")
+    @Pointcut("within(demo..*)")
     public void authorizationPointCut(){
 
     }
